@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.coverpage{
+
+    background-image: url(./bg.png.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+h1{
+    font-size: 80px;
+}
+h3{
+    text-align: center;
+}
+
+.logo img{
+    width: 186px;
+    margin-top: -40px;
+}
+.writer{
+   
+    font-weight: bold;
+    margin-top: 140px;
+    margin-left: 430px;
+    font-size: 20px;
+}
